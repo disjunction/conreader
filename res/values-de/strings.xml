@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Nutzen Sie die MENU-Taste</string>
+<string name="version">Version:</string>
+<string name="date">Datum:</string>
+
+<string name="load">Laden</string>
+<string name="browse">Browse...</string>
+<string name="app_name">conreader</string>
+<string name="gotopage">Seite auswählen...</string>
+<string name="settings">Einstellungen</string>
+<string name="open">Laden...</string>
+<string name="select_page">Seite auswählen</string>
+<string name="select_file">Buch auswählen</string>
+<string name="loading">Buch wird geladen...</string>
+<string name="page">Seite</string>
+<string name="go">Gehen!</string>
+
+<string name="enter_page">Seite </string>
+<string name="indexing">analysieren</string>
+<string name="of">aus</string>
+	
+<string name="app_title">conreader</string>
+<string name="font">Schriftgröße</string>
+<string name="color_theme">Farbenthema</string>
+<string name="save">Speichern</string>
+<string name="battery">Batterie:</string>
+
+<string name="themeBlackOnWhite">Schwarz auf Weiß</string>
+<string name="themeBlackOnGray">Schwarz auf Grau</string>
+<string name="themeBlackOnDGray">Schwarz auf Dunkelgrau</string>
+<string name="themeGrayOnBlack">Grau auf Schwarz</string>
+<string name="themeDGrayOnBlack">Dunkelgrau auf Schwarz</string>
+<string name="themeTerminalNostlgia">Ich bin ein Hacker</string>
+
+<string name="recentFiles">die letzte...</string>
+<string name="noRecentBooksFound">kein Buch gefunden</string>
+
+<string name="switchProfile">Profil wechseln</string>
+<string name="switchedToProfile">Profil</string>
+
+<string name="enterDirectoryPath">Verzeichnis:</string>
+<string name="wrongDirectory">Falshes Verzeichnis</string>
+
+<string name="setupProfile">Profil einstellungen</string>
+<string name="booksDirectory">Bibliothek Root-Verzeichnis</string>
+    
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="fs_no_files">no files</string>
+	<string name="fs_to_top">/ (back to top)</string>
+</resources>

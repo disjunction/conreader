@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Нажмите кнопку "MENU". Поможет.</string>
+    <string name="version">Версия:</string>
+    <string name="date">Дата:</string>
+    
+    <string name="load">Загрузить</string>
+    <string name="browse">Обзор...</string>
+    <string name="app_name">conreader</string>
+    <string name="gotopage">к странице...</string>
+    <string name="settings">настройки</string>
+    <string name="open">открыть...</string>
+    <string name="select_page">выберите страницу</string>
+    <string name="select_file">Выбор файла</string>
+    <string name="loading">загрузка</string>
+    <string name="page">Стр.</string>
+    <string name="go">Перейти</string>
+
+<string name="enter_page">Номер страницы:</string>
+<string name="indexing">Индексация</string>
+<string name="of">из</string>
+
+<string name="app_title">кончиталка</string>
+<string name="font">Шрифт</string>
+<string name="color_theme">Цветовая схема:</string>
+<string name="save">Сохранить</string>
+<string name="battery">Заряд:</string>
+
+<string name="themeBlackOnWhite">Черным по белому</string>
+<string name="themeBlackOnGray">Черным по серому</string>
+<string name="themeBlackOnDGray">Черным по тёмно-серому</string>
+<string name="themeGrayOnBlack">Серым по черному</string>
+<string name="themeDGrayOnBlack">Тёмно-серым по черному</string>
+<string name="themeTerminalNostlgia">Я - хакер</string>
+
+<string name="recentFiles">недавние...</string>
+<string name="noRecentBooksFound">похоже, вы ничего пока не читали</string>
+
+<string name="switchProfile">переключить профиль</string>
+<string name="switchedToProfile">переключение на профиль</string>
+
+<string name="enterDirectoryPath">Корневой каталог с книжками:</string>
+<string name="wrongDirectory">Неверный каталог</string>
+
+<string name="setupProfile">Настроить профиль:</string>
+<string name="booksDirectory">Корневой каталог</string>
+</resources>

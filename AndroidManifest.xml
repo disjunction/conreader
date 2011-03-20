@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.pluseq.coreader"
+      android:versionCode="1"
+      android:versionName="@string/versionNumber">
+    <uses-sdk android:minSdkVersion="3" />  
+    <application android:icon="@drawable/coreader_icon" android:label="@string/app_name">
+    
+        <activity android:name=".android.ConReader"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".android.SelectPageActivity"
+                  android:label="@string/select_page"
+                  android:theme="@android:style/Theme.Dialog"
+                  >
+             <intent-filter>
+                <action android:name=".android.SelectPageActivity" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pluseq.android.FileSelector"
+                  android:label="@string/select_file"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name=".android.BookSelectorActivity"
+                  android:label="@string/open"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name=".android.SettingsActivity"
+                  android:label="@string/settings"
+                  />
+        <activity android:name=".android.ProfileSettingsActivity"
+                  android:label="@string/settings"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name=".android.RecentFilesActivity"
+                  android:label="@string/recentFiles"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name=".android.SelectDirectoryActivity"
+                  android:label="@string/settings"
+                  android:theme="@android:style/Theme.Dialog"
+                  />      
+    </application>
+</manifest> 

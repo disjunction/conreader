@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  android:stretchColumns="1" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TableRow>
+	<LinearLayout android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:id="@+id/pageStringCaption" android:layout_width="wrap_content" android:text="@string/page" android:textSize="10px" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/pageString" android:layout_width="wrap_content" android:text="" android:paddingRight="10px" android:textSize="10px" android:layout_height="wrap_content" android:textStyle="bold"/>
+		<TextView android:id="@+id/batteryStringCaption" android:layout_width="wrap_content" android:text="@string/battery" android:textSize="10px" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/batteryString" android:layout_width="wrap_content" android:text="" android:paddingRight="10px" android:textSize="10px" android:layout_height="wrap_content" android:textStyle="bold" />
+		<TextView android:id="@+id/indexingStatus" android:visibility="invisible" android:layout_width="wrap_content" android:text="" android:paddingRight="10px" android:textSize="10px" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<TextView android:layout_gravity="right" android:id="@+id/clock" android:text="" android:paddingRight="4px" android:textSize="10px" android:layout_height="wrap_content" android:textStyle="bold" />
+</TableRow>
+</TableLayout>

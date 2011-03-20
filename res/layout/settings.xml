@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/settingVerticalLayout"
+>
+	<!--
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingBottom="10px"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="40px"
+	    android:id="@+id/settingLinearLayout"
+	>
+
+		<CheckBox android:text="Perenos" 
+				  android:id="@+id/carryOver"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content">
+		</CheckBox>
+	</LinearLayout>
+	-->
+	
+	<Button android:text="@string/setupProfile"
+			android:id="@+id/settingsProfile"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></Button>
+			
+	<Button android:text="@string/switchProfile"
+			android:id="@+id/settingsSwitchProfile"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></Button>
+	
+	<Button android:text="@string/booksDirectory"
+		    android:id="@+id/settingsDirectory" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"></Button>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="versionNumber">0.0.12</string>
+    <string name="versionDate">2011-01-15</string>
+    <string name="website">http://conreader.pluseq.com</string>
+
+<!--  end of global strings -->
+
+<string name="hello">Press the &quot;MENU&quot; button. Hope it helps</string>
+<string name="version">Version:</string>
+<string name="date">Date:</string>
+
+<string name="load">Load</string>
+<string name="browse">Browse...</string>
+<string name="app_name">conreader</string>
+<string name="gotopage">goto page...</string>
+<string name="settings">settings</string>
+<string name="open">open...</string>
+<string name="select_page">Select page</string>
+<string name="select_file">select file</string>
+<string name="loading">loading...</string>
+<string name="page">Page</string>
+<string name="go">Go!</string>
+
+<string name="enter_page">Enter page #</string>
+<string name="indexing">indexing</string>
+<string name="of">of</string>
+	
+<string name="app_title">conreader</string>
+<string name="font">Font</string>
+<string name="color_theme">Colour theme:</string>
+<string name="save">Save</string>
+<string name="battery">Battery:</string>
+
+<string name="themeBlackOnWhite">Black on White</string>
+<string name="themeBlackOnGray">Black on Gray</string>
+<string name="themeBlackOnDGray">Black on Dark-Gray</string>
+<string name="themeGrayOnBlack">Gray on Black</string>
+<string name="themeDGrayOnBlack">Dark-Gray on Black</string>
+<string name="themeTerminalNostlgia">Terminal Nostalgia</string>
+
+<string name="recentFiles">recent files...</string>
+<string name="noRecentBooksFound">no recent books found</string>
+
+<string name="switchProfile">switch profile</string>
+<string name="switchedToProfile">switched to profile</string>
+
+<string name="enterDirectoryPath">Enter the root path:</string>
+<string name="wrongDirectory">Wrong directory</string>
+
+<string name="setupProfile">Setup Profile:</string>
+<string name="booksDirectory">Books Root Path</string>
+</resources>

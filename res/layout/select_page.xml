@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:orientation="vertical" android:minWidth="280px">
+	<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent">
+		<TextView android:id="@+id/PageNumberText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter_page" android:layout_margin="5px"></TextView>
+		<EditText android:id="@+id/PageNumber" android:layout_height="wrap_content" android:text="1" android:layout_width="fill_parent"></EditText>
+	</LinearLayout>
+	<Button android:id="@+id/SelectPageGo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/go" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_title" android:layout_gravity="center_horizontal" android:textSize="40px" android:textColor="#ffaa00" android:layout_marginBottom="3px"></TextView>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:layout_marginBottom="10px">
+	<TextView android:textSize="10px" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version" android:paddingRight="3px"/>
+	<TextView android:textSize="10px" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/versionNumber" android:paddingRight="17px"/>
+	<TextView android:textSize="10px" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date" android:paddingRight="3px"/>
+	<TextView android:textSize="10px" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/versionDate" />
+</LinearLayout>
+
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/splash" android:src="@drawable/coreader" android:layout_gravity="center_horizontal"></ImageView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello" android:layout_gravity="center_horizontal" android:layout_marginTop="30px"></TextView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/website" android:layout_gravity="center_horizontal"></TextView>
+
+</LinearLayout>

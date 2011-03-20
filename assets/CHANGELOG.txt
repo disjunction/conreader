@@ -1,0 +1,57 @@
+0.0.2
+	Fullscreen toggle changes frame size
+	\r treated as space (for DOS line breaks)
+	select encoding when loading file
+	
+0.0.3
+	Correct file read error handling
+	Remember state/books
+	last book autoload
+
+0.0.4
+	Page mapping is saved in DB (and quickly restored)
+	remember book positions
+
+0.0.5
+	display total page number
+	include constants in bookHash
+	handle end of book
+
+0.0.6
+	file selector jailed to /sdcard/
+	sorting by filename in file selector
+	added File.lastModified() to bookHash
+	display fileName when loading
+	text indent decoration trimming 
+
+0.0.7
+	+ font sizes and color themes
+	* fullscreen is saved
+
+0.0.8
+    + recompiled for 1.5 platform
+    + two consequent null-tokens bug fixed (thanks to Roman Kolos!)
+    + space preceeder is ignored when lines are longer than 100 chars
+
+0.0.9
+	* project renamed to ConReader	
+	+ frame starting with <p> still has an offset
+	+ if file contains very long lines, paraph on every line mode is switched
+
+0.0.10
+    oops... I don't remember what i did here
+
+0.0.11
+    + recompiled for 1.6 and 2.1 platform
+    + status bar height is not hardcoded, but retrieved from current window
+    * customizable books root directory
+    * two custom profiles
+    + more font sizes available
+    + dark-gray color themes added
+    + progress dialog when jumping to a page
+    * cyrillic encoding auto-detetction
+    
+0.0.12
+    * added clock
+    * added read ahead feature
+    + several crash-bugfixes 
