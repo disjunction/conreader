@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
 
+import android.util.Log;
+
 public class ScrapeManagerInMemory  implements ScrapeManagerInterface {
 
 	protected ArrayList<Scrape> memoryArray;
@@ -42,7 +44,6 @@ public class ScrapeManagerInMemory  implements ScrapeManagerInterface {
 
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
 		return memoryArray.size();
 	}
 
@@ -74,7 +75,7 @@ public class ScrapeManagerInMemory  implements ScrapeManagerInterface {
 
 	@Override
 	public String getStringByScrapeIndex(int scrapeIndex) {
-		return this.getByIndex(scrapeIndex).toString();
+		return getByIndex(scrapeIndex).toString();
 	}
 
 	public void initIterator() {

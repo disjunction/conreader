@@ -161,7 +161,7 @@ public class SourceFileSystem implements SourceInterface, OnClickListener {
 					cb = CharBuffer.allocate(Constants.charsPerScrape);
 					scrapeCounter++;
 				}
-			} while (read > 0 && scrapeCounter < 100);			
+			} while (read > 0 && scrapeCounter < 500);
 			
 			in.close();
 			isr.close();

@@ -55,3 +55,7 @@
     * added clock
     * added read ahead feature
     + several crash-bugfixes 
+    
+0.0.13 - 2013-10-15
+    + fixed re-heat measure cache on font size change
+    + increased scrape limit from 100 to 500 (3MB to 15MB txt file)

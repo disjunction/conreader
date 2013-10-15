@@ -130,7 +130,7 @@ public class FrameManagerAndroid extends FrameManagerAbstract {
 		return doContinue; 
 	}
 	
-	private static Hashtable<String, Float> measureCacheByString = new Hashtable<String, Float>(); 
+	private Hashtable<String, Float> measureCacheByString = new Hashtable<String, Float>(); 
 	
 	private void heatMeasureCache() {
 		if (measureCacheByString.size() == 0) {
