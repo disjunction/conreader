@@ -16,7 +16,6 @@
 	display total page number
 	include constants in bookHash
 	handle end of book
-
 0.0.6
 	file selector jailed to /sdcard/
 	sorting by filename in file selector
@@ -59,3 +58,4 @@
 0.0.13 - 2013-10-15
     + fixed re-heat measure cache on font size change
     + increased scrape limit from 100 to 500 (3MB to 15MB txt file)
+    + fixed placing text (status overlap, gap on top with small font)

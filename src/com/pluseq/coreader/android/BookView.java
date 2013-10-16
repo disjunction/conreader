@@ -291,7 +291,7 @@ public class BookView extends LinearLayout implements BookFrameEventListener, Bo
         @Override 
         protected void onDraw(Canvas canvas) {
             canvas.drawColor(Color.parseColor(CoConfig.getCoTheme().color.get(BookElement.CANVAS_BACKGROUND)));
-            canvas.translate(0, 20);
+            //canvas.translate(0, 20);
             
             FontSettings fs = CoConfig.getFontSettings();
             

@@ -38,7 +38,7 @@ public class FrameManagerAndroid extends FrameManagerAbstract {
 	public FrameManagerAndroid(PageManager pm) {
 		super(pm);
 		fontSettings = CoConfig.getFontSettings();
-		lineMargin = 2 * (fontSettings.getFontHeight() + fontSettings.getLineSpacing()) + 5; 
+		lineMargin = (int)(2 * (fontSettings.getFontHeight() + fontSettings.getLineSpacing())); 
 		setDisplayState();
 		heatMeasureCache();
 	}
@@ -122,6 +122,7 @@ public class FrameManagerAndroid extends FrameManagerAbstract {
 		if (align == ALIGN_JUSTIFY) {
 			line = justifyLine(line);
 		}
+		
 		boolean doContinue = lineFeed(line, y, align);
 		x = newX;
 		y += yShift;
@@ -171,7 +172,7 @@ public class FrameManagerAndroid extends FrameManagerAbstract {
 
 				switch (cobit.type) {
 				case CoBit.SYLLABLE:
-					paint = fontSettings.getPaint(FontSettings.NORMAL);
+					//paint = fontSettings.getPaint(FontSettings.NORMAL);
 					break;
 					
 				case CoBit.TAG:
@@ -214,7 +215,7 @@ public class FrameManagerAndroid extends FrameManagerAbstract {
 					if (lineHasContent) {
 						// if this wasnt critical syllable, then add. Otherwise roll it back
 						if (doContinue) {
-							placedCoBit = new PlacedCoBit(cobit, x, y, FontSettings.NORMAL, measure);
+							placedCoBit = new PlacedCoBit(cobit, x, y + fontHeight, FontSettings.NORMAL, measure);
 							line.add(placedCoBit);
 							x += measure;
 						} else {
